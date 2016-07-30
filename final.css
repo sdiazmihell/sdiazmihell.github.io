@@ -74,39 +74,46 @@ nav a.label {
 body {
 	background-color: none;
 	font-family: Helvetica;
-	font-size: 5rem;
-	line-height: 60px;
 	-webkit-font-smoothing: antialiased;
 	overflow: scroll;
 }    
 
 #backToTop {
+  display: block;
 	position: fixed;
 	width: 300px;
-	right: -120px;
-	bottom: 30px;
+	right: -80px;
+	bottom: 0px;
 	color: #00993b;
+  z-index: 1000;
+  font-size: 5.75rem;
+  line-height: 5.8rem;
+  transform: rotate(90deg);
 }   
 
+#backToTop:hover {
+  color: red;
+} 
+
 .logo {
-	display: block;
 	font-size: 5.5rem;
-	padding-left: 120px;
-	padding-top: 40px;
+	padding-top: 20px;
+  z-index: -5;
+  padding-left: 120px;
 }
 
 button {
 	display: block;
 	position: absolute;
 	left: 440px;
-	top: 20px;
+	top: 8px;
 	font-size: 5.5rem;
 	color: black;
-    outline: none;
-    border: none;
-    background: transparent;
-    cursor: pointer;
-    display: inline;
+  outline: none;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  display: inline;
 }
 
 button:hover {
@@ -114,19 +121,20 @@ button:hover {
 } 
 
 p {
-	width: 100%;
+	width: 95%;
 	margin: 0px;
 	padding-left: 120px;
 	padding-top: 15px;
 	padding-bottom: 20px;
-    font-size: 5.75rem;
-    line-height: 5.8rem;
+  font-size: 5.75rem;
+  line-height: 5.8rem;
 	font-family: Helvetica;
 	color: black;
 	display: none;
+  z-index: -1;
 }
 
-nav .menu{
+nav .menu {
 	display: block;
 	position: fixed;
 	width: 450px;
@@ -135,36 +143,43 @@ nav .menu{
 	line-height: 5rem;
 }
 
-div {
-	font-size: 5rem;
-	line-height: 5rem;
-	left: 20px;
-}
-
 a {
 	text-decoration: none;
 	color: black;
 	cursor: pointer;
 }
-
-div .music {
-    position: relative;
-    width: 350px;
-	left: 130px;
-	z-index: -1;
+img.music {
+  position: absolute;
+  display: block;
+  width: 300px;
+  left: 130px;
+  z-index: -1
 }
 
 img#thug {
-  display: block;
+  position: absolute;
   width: 450px;
   float: left;
-  left: 500px;
+  left: 400px;
 }
 
 img#uzi {
-  display: block;
+  position: relative;
   width: 500px;
   float: left;
+  left: 250px;
+}
+
+section#graphicDesignSection {
+  position: relative;
+  width: 82%;
+  left: 120px;
+  z-index: -1;
+}
+
+div {
+  font-size: 5.75rem;
+  line-height: 5.8rem;
 }
 
 
