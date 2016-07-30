@@ -66,11 +66,6 @@ nav a.label {
   display: table-cell;
 }
 
-section {
-  padding: 2rem 5rem 2rem 9rem;
-  min-height: 100vh;
-}
-
 
 .clearit {
   clear: both;
@@ -85,7 +80,7 @@ body {
 	overflow: scroll;
 }    
 
-#pageTop {
+#backToTop {
 	position: fixed;
 	width: 300px;
 	right: -120px;

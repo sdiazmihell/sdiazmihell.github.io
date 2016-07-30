@@ -7,18 +7,18 @@
 	<link href="https://fonts.googleapis.com/css?family=Jomhuria|Mirza|Rakkas|Work+Sans" rel="stylesheet">
 	<script src="https://code.jquery.com/jquery-3.1.0.min.js"
     integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="./final.js"></script>
-    <script src="https://use.fontawesome.com/0507b9a9fc.js"></script>
+  <script src="./smoothscroll.js"></script>
+  <script type="text/javascript" src="./final.js"></script>
 </head>
 
 <body>
 
   <nav>
   <div id="logo">i</div>
-  <a href="#" title="Home">
+  <a href="#musicSection" title="Home">
     <span class="label">Music</span>
   </a>
-  <a href="#" title="About" class="active">
+  <a href="#graphicDesignSection" title="Graphic Design" class="active">
     <span class="label">Graphic Design</span>
   </a>
   <a href="#" title="Blog">
@@ -29,7 +29,8 @@
   </a>
 </nav>
 
-<div><a href="#pageTop" class="backToTop" id="pageTop">Top</a></div> 
+<div id="pageTop"></div>
+<div><a href="#pageTop" id="backToTop">Top</a></div> 
 
   <!--<div><img src="./images/ceeesround.png" class="logo"></div>-->
 
@@ -38,14 +39,21 @@
 <button>(?)</button>
   <p>Visual identities, websites, publications and other printed and digital matter for cultural and commercial clients. Founded in 2016 by Sebastian Diaz-Mihell.</p>
 
- <div><img src="./images/musictext.png" class="music"></div>
+ <section id="musicSection">
+   <div><img src="./images/musictext.png" class="music"></div>
+   <div>
+     <img src="./images/thug.png" id="thug" alt="Young Thug" />
+     <img src="./images/uzi.png" id="uzi" alt="Lil Uzi Vert" />
+     <div class="clearit"></div>
+   </div>
+ </section>
 
-<div>
-  <img src="./images/thug.png" id="thug" alt="Young Thug">
-  <img src="./images/uzi.png" id="uzi" alt="Lil Uzi Vert">
-</div>
-
-
+ <section id="graphicDesignSection">
+   <div>Graphic Design</div>
+   <div>
+    Graphic design stuff goes here
+   </div>
+ </section>
 
  
 <!--<section id="aboutSection">
