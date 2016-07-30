@@ -95,16 +95,16 @@ body {
 
 .logo {
 	display: block;
-	width: 400px;
-	margin-left: 120px;
-	padding-top: 30px;
+	font-size: 5.5rem;
+	padding-left: 120px;
+	padding-top: 40px;
 }
 
 button {
 	display: block;
 	position: absolute;
-	left: 540px;
-	top: 6px;
+	left: 440px;
+	top: 20px;
 	font-size: 5.5rem;
 	color: black;
     outline: none;
@@ -154,10 +154,25 @@ a {
 
 div .music {
     position: relative;
-    width: 500px;
-	left: 120px;
+    width: 350px;
+	left: 130px;
 	z-index: -1;
 }
+
+img#thug {
+  display: block;
+  width: 450px;
+  float: left;
+  left: 500px;
+}
+
+img#uzi {
+  display: block;
+  width: 500px;
+  float: left;
+}
+
+
 
 
 /*
