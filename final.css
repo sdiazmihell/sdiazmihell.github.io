@@ -134,7 +134,7 @@ p {
   z-index: -1;
 }
 
-nav .menu {
+nav.menu {
 	display: block;
 	position: fixed;
 	width: 450px;
@@ -177,7 +177,24 @@ section#graphicDesignSection {
   z-index: -1;
 }
 
+img#typeposter {
+  position: relative;
+  width: 600px;
+  left: 50px;
+  z-index: -100;
+  float: left;
+}
+
+img#redposter {
+  position: relative;
+  width: 400px;
+  left: 80px;
+  z-index: -100;
+  float: left;
+}
+
 div {
+  position: relative;
   font-size: 5.75rem;
   line-height: 5.8rem;
 }
